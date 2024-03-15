@@ -562,11 +562,6 @@ def get_args_parser():
     parser.add_argument("--device", default="cuda", help="device to use for training / testing")
     parser.add_argument("--interaction", action='store_true', help="")
 
-    # oss parameters
-    parser.add_argument("--oss_access", default="access", help="auth access")
-    parser.add_argument("--oss_key", default="key", help="auth key")
-    parser.add_argument("--oss_bucket", default="bucket", help="bucket to save model")
-
     return parser
 
 
